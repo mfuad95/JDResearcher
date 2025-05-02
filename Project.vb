@@ -13,13 +13,13 @@ Porject
 <div class="w3-top">
  <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="Home.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="AboutUs.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
-    <a href="Project.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROJECT(S)</a>
+    <a href="Home2.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="About Us.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
+    <a href="Porject.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROJECT(S)</a>
   </div>
 </div>
 
-  <title>JDResearcher-Project</title>
+  <title>project</title>
   <style>
     * {
       margin: 0;

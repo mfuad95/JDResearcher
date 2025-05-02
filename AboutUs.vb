@@ -3,7 +3,6 @@ About Us
 <!DOCTYPE html>
 <html>
 <head>
-<title>JDResearcher-AboutUs</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -13,9 +12,9 @@ About Us
 <div class="w3-top">
    <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="Home.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
-    <a href="AboutUs.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
-    <a href="Project.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROJECT(S)</a>
+    <a href="Home2.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="About Us.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
+    <a href="Porject.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROJECT(S)</a>
   </div>
 </div>
 
@@ -140,7 +139,7 @@ h2 {
 
 <div class="team-section">
   <div class="card">
-    <img src="https://media-kul3-1.cdn.whatsapp.net/v/t61.24694-24/473411134_1184651413043632_2216181866112039102_n.jpg?ccb=11-4&oh=01_Q5Aa1QHb8vBScFmTwXw2dO8zseefcw_nmA2JMEXQoxrQPCKfyw&oe=68160097&_nc_sid=5e03e0&_nc_cat=110" alt=" alt="'Arif">
+    <img src="arif.jpg" alt="'Arif">
     <div class="container">
       <h3><b>Muhammad 'Arif Bin Rasul</b></h3>
       <p class="title">Frontend Developer</p>
@@ -152,7 +151,7 @@ h2 {
   </div>
 
   <div class="card">
-    <img src="https://lh3.googleusercontent.com/a-/ALV-UjUuDdpT8HLWz1EE0InVQqLfsIKjJQPXPAj6RbeumJLI3uxHNWJA38Yth7-k9xevIdqihEKVR7389XYIzDY4ubKsf3wSBGhG14kEBquQqUnmxvlyrtB4iYlGe0dWJmjcHKxwElhrAQFLzj6URa-uUORrIo12fddyeVuBwUIOeGGnh60dDZ2e6NQ9Mqmk7J3MhGh_177ViN4Erc8jFwLsUMmOZVmPwZMX0tNoBdCmp1Rgej83card_wi0Yx_UmHxF8HPekmwZtSystahnzQR5j-F6x2smiYIy45S688bwXqdOUB0-TtNqXuoCG4vgI4LmSpHivcEIdp973YDUMWAM1qtfoPjZDjVQuC50iJa74K-cSuEWDXCFTjtgMj5LLnp5u_xSA6voP9TnpaVFemnP7qdiZvkXb2-ASoA0acLQNQvQ8cFer3y7bnc4mIqFFCgQJ6EOZS7cKLLi6wIugij90ax4m3vPJFeunvV8sDt113HdhUFuifIFHyzfWxM4nX2A6WbwfCjJRJChxwugENTROyYZlEyd-aE9ifs1yas5JfYjazcZfPXkBe63RgZyKMfsRWE4_N4d3JuvLwhjGtM1Hb7E3nPFhKnpJeZJNOx9jeJIKVg_DcarEda7USfh0dXJtvJYs635jKV2uxmwEHeovfQMDyycrkOsl4DMaHmpRrsMHrtg1vwGklyYEZx5C2f0-Zq_oIGloYYfLFvw4KId6gCuTcfoMf2tXGtknBcc0vmJhWjproSVeoAhDnCXLhfsd2icRiCWUajjTvo1HNfPPvDsIQuZSdOHGhlHPnzEo6CmAsAPaXVj7rwyE0rRVlZWe2GcKm93XP2Zu-8Fw_GIK4YN9MaYfdkKXXjPfC6fcIYbaabXVgNt7wI6Pv0jWDRSDdth-Lii7SLOFTZML0rmme_F3tr1_GVxf0QiE9kad8-EVvWvZUHvZCc7CXnP8gQK1jmGcw0y2s5Mc2Lp9QWgDvdT=s288-c-no">
+    <img src="fuad.jpg" alt="Fuad">
     <div class="container">
       <h3><b>Muhammad Fuad Bin Mohtar</b></h3>
       <p class="title">Full-stack Developer</p>
@@ -164,7 +163,7 @@ h2 {
   </div>
 
   <div class="card">
-    <img src="https://media-kul3-1.cdn.whatsapp.net/v/t61.24694-24/384862437_180358775117239_8044741094716731439_n.jpg?ccb=11-4&oh=01_Q5Aa1QG9SPRNcbYVOmGzhug6Xwmlm2y795YbFq1mi6CzvSnCqA&oe=68160E89&_nc_sid=5e03e0&_nc_cat=105" alt="Shahidah">
+    <img src="shidah.jpg" alt="Shahidah">
     <div class="container">
       <h3><b>Shahidah Bt Shahidan</b></h3>
       <p class="title">Web Developer</p>
