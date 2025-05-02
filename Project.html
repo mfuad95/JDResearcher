@@ -1,0 +1,181 @@
+Porject
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Navbar -->
+<div class="w3-top">
+ <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="Home.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="AboutUs.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
+    <a href="Project.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">PROJECT(S)</a>
+  </div>
+</div>
+
+  <title>JD Researcher-Project</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    :root {
+      --body-color: #010102;
+      --text-color: #FFF;
+    }
+
+    body {
+  background-image:url(Slide1.JPG);
+  background-size: cover;
+  background-attachment: fixed;
+  color: var(--text-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    }
+
+    /* Project Title */
+    h1.project-title {
+      margin-top: 50px;
+      margin-bottom: 40px;
+      font-family: sans-serif;
+      font-size: 3.5rem;
+      color:#e0e0e0;
+      text-align: center;
+    }
+
+    .projectdelt {
+        background-color: var(--body-color);
+      min-height: calc(100vh - 120px);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2rem;
+      width: 100%;
+    }
+
+    .left_sec {
+      max-width: 600px;
+      text-align: center;
+    }
+
+    .left_sec h2 {
+      color: #faf6f6;
+      font-family: sans-serif;
+      font-size: 2.5rem;
+      margin: 1rem 0;
+    }
+
+    .left_sec h3 {
+      color: #d4b671;
+      font-family: sans-serif;
+      font-size: 1.5rem;
+      margin: 1rem 0;
+    }
+
+    .left_sec p {
+      font-family: sans-serif;
+      color: rgb(255, 251, 251);
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+    }
+
+    @keyframes moveleft {
+      0% {
+        opacity: 0;
+        transform: translateX(25px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .animated-project {
+      opacity: 0;
+      animation: moveleft 1s ease forwards;
+    }
+
+    .flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.image-box img {
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 18px rgba(248, 182, 1, 0.3);
+}
+.image-box {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Ensure responsiveness on small screens */
+@media (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+
+}
+   .left_sec h2 {
+    font-size: 2rem;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Project Title -->
+  <h1 class="project-title"><b>PROJECT</b></h1>
+
+  <div class="projectdelt">
+    <div class="left_sec animated-project flex-container">
+      <!-- Image Section -->
+      <div class="image-box">
+        <img src="https://conmigomedia.com/wp-content/uploads/2024/09/How-to-Become-a-Web-Designer.png" alt="Project Image" />
+        <img src="https://the-refinery.io/uploads/hero-images/_1200x630_crop_center-center_none/google-lighthouse-04.jpg" alt="Project Image" />
+        
+    </div>
+  
+      <!-- Text Section -->
+      <div class="text-box">
+        <h2>Web Design and Performance Audit :</h2>
+        <h3><i>~ Optimizing with Google Lighthouse ~</i></h3>
+        <p class="w3-center">This project focuses on creating a responsive, user-friendly website and enhancing its performance through a detailed audit using Google Lighthouse.</p>
+        <p class="w3-center">The goal is to not only design a visually appealing site but also optimize it for better performance, accessibility, SEO, and overall user experience.</p> 
+        <p class="w3-center">Using Lighthouse, the website will be evaluated and improved based on key metrics, ensuring it meets modern web standards.</p>
+      </div>
+    </div>
+  </div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <i class="fa fa-github w3-hover-opacity"></i>
+  <i class="fa fa-linkedin w3-hover-opacity"></i>
+  <p class="w3-medium">JD Researcher</p>
+  <p class="w3-medium">~ Always make website better ~</p>
+</footer>
+
+</body>
+</html>
